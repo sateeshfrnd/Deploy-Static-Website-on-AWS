@@ -12,7 +12,7 @@ Note that Static website hosting essentially requires a public bucket, whereas t
 
 In this project, you will deploy a static website to AWS by performing the following steps:
 
-- You will create a public S3 bucket and upload the website files to your bucket.
-- You will configure the bucket for website hosting and secure it using IAM policies.
-- You will speed up content delivery using AWS’s content distribution network service, CloudFront.
-- You will access your website in a browser using the unique CloudFront endpoint.
+- [You will create a public S3 bucket and upload the website files to your bucket.](https://github.com/sateeshfrnd/Deploy-Static-Website-on-AWS/blob/main/1-Create%20S3%20Bucket%20and%20upload%20website%20files.md)
+- [You will configure the bucket for website hosting and secure it using IAM policies.](https://github.com/sateeshfrnd/Deploy-Static-Website-on-AWS/blob/main/2-Configure%20and%20Secure%20S3%20Bucket.md)
+- [You will speed up content delivery using AWS’s content distribution network service, CloudFront.](https://github.com/sateeshfrnd/Deploy-Static-Website-on-AWS/blob/main/3-Distribute%20Website%20via%20CDN.md)
+- [You will access your website in a browser using the unique CloudFront endpoint.](https://github.com/sateeshfrnd/Deploy-Static-Website-on-AWS/blob/main/4-Access%20Website.md)
