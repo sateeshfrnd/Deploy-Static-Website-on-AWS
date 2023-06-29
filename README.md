@@ -9,6 +9,17 @@ The cloud is perfect for hosting static websites that only include HTML, CSS, an
 ```
 Note that Static website hosting essentially requires a public bucket, whereas the CloudFront can work with public and private buckets.
 ```
+## Website Files
+The files included are: 
+| File      | Description |
+| ----------- | ----------- |
+| index.html      | TThe Index document for the website.      |
+| error.html      | TThe Error Index document for the website.      |
+| /img            | The background image file for the website.       |
+| /vendor         | Bootssrap CSS framework, Font, and JavaScript libraries needed for the website to function     |
+| /css            | CSS files for the website       |
+
+
 
 In this project, you will deploy a static website to AWS by performing the following steps:
 
@@ -16,3 +27,4 @@ In this project, you will deploy a static website to AWS by performing the follo
 - [You will configure the bucket for website hosting and secure it using IAM policies.](https://github.com/sateeshfrnd/Deploy-Static-Website-on-AWS/blob/main/2-Configure%20and%20Secure%20S3%20Bucket.md)
 - [You will speed up content delivery using AWS’s content distribution network service, CloudFront.](https://github.com/sateeshfrnd/Deploy-Static-Website-on-AWS/blob/main/3-Distribute%20Website%20via%20CDN.md)
 - [You will access your website in a browser using the unique CloudFront endpoint.](https://github.com/sateeshfrnd/Deploy-Static-Website-on-AWS/blob/main/4-Access%20Website.md)
+
